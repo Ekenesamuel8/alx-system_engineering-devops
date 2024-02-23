@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+kill TERM "$(pgrep -f process_and_pid_file)"
